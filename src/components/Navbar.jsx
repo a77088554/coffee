@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 text-2xl">
           <img 
-            src="./src/assets/coffee_shop.png" 
+            src="/coffee_shop.png" 
             alt="coffee_bean" 
             className="h-8"
           />
@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <span className="sr-only">開啟導覽列</span>
           <img 
-            src="./src/assets/navigation_bar.png" 
+            src="/navigation_bar.png" 
             alt="navbar_icon"
             className="w-5" 
           />
