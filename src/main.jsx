@@ -11,8 +11,8 @@ createRoot(document.getElementById('root')).render(
   <HashRouter>
     <Navbar/>
     <Routes>
-      <Route path='/coffee/' element={<Home/>}/>
-      <Route path='/coffee/about' element={<About/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
     </Routes>
     <Footer/>
   </HashRouter>
