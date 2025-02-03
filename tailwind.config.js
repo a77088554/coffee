@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'coffee':"url('./public/coffee_hero.jpg')",
+        'coffee':"url('/coffee/coffee_hero.jpg')",
       }
     },
   },
