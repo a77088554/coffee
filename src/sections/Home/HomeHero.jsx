@@ -3,7 +3,7 @@ const HomeHero = () => {
     <section className="flex max-lg:flex-col">
       <div className="max-w-[60%] max-lg:max-w-full max-lg:home_hero max-lg:h-screen">
         <img 
-          src="../public/coffee_hero.jpg" 
+          src="/coffee/coffee_hero.jpg" 
           alt="coffee hero img"
           className="w-full h-full object-cover max-lg:hidden" 
         />
