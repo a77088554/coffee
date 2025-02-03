@@ -13,7 +13,7 @@ const CategoryContent = ({nowCategory}) => {
   return (
     <div className="text-xl flex justify-center items-center my-auto">
       <img 
-        src={`/${nowCategory}.jpg`} 
+        src={`/coffee/${nowCategory}.jpg`} 
         alt={`${nowCategory}`}
         className="rounded-2xl h-[50dvh]" 
       />

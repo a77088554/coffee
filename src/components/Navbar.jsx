@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-500 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center space-x-3 text-2xl">
+        <a href="/coffee/" className="flex items-center space-x-3 text-2xl">
           <img 
-            src="/coffee_shop.png" 
+            src="/coffee/coffee_shop.png" 
             alt="coffee_bean" 
             className="h-8"
           />
@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <span className="sr-only">開啟導覽列</span>
           <img 
-            src="/navigation_bar.png" 
+            src="/coffee/navigation_bar.png" 
             alt="navbar_icon"
             className="w-5" 
           />
@@ -41,10 +41,10 @@ const Navbar = () => {
         <div className={btnClick ? "w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar_default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
             <li>
-              <a href="/" className={location.pathname==='/' ? 'navbar_li text-blue-700' : 'navbar_li'}>首頁</a>
+              <a href="/coffee/" className={location.pathname==='/' ? 'navbar_li text-blue-700' : 'navbar_li'}>首頁</a>
             </li>
             <li>
-              <a href="/about" className={location.pathname==='/about' ? 'navbar_li text-blue-700' : 'navbar_li'}>關於</a>
+              <a href="/coffee/about" className={location.pathname==='/about' ? 'navbar_li text-blue-700' : 'navbar_li'}>關於</a>
             </li>
           </ul>
         </div>
